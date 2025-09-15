@@ -49,7 +49,7 @@ function prevStep() {
       circles[currentStep].classList.remove("active");
       lines[currentStep-1].classList.remove("active"); 
 	}
-  prevBtn.disabled = currStep === 1;
+  prevBtn.disabled = currentStep === 1;
     nextBtn.disabled = false;
 }
 
